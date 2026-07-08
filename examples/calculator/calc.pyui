@@ -1,0 +1,1164 @@
+{
+  "framework": "customTk",
+  "projectName": "calculator app",
+  "canvasData": [
+    {
+      "id": "main_window_mf20s305gb21dgel2ft",
+      "children": [
+        {
+          "id": "button_mf24ddpomuu6vf414l",
+          "children": [],
+          "parent": "main_window_mf20s305gb21dgel2ft",
+          "initialData": {
+            "zIndex": 0,
+            "selected": false,
+            "widgetName": "Button",
+            "pos": {
+              "x": 29,
+              "y": 319
+            },
+            "size": {
+              "width": 51,
+              "height": 45
+            },
+            "fitContent": {
+              "width": false,
+              "height": false
+            },
+            "widgetContainer": "widget",
+            "parentLayout": {
+              "layout": "absolute",
+              "gap": 10
+            },
+            "positionType": "absolute",
+            "attrs": {
+              "styling.backgroundColor": "#e1dddd",
+              "styling.transparentBackground": false,
+              "styling.textColor": "#302c2c",
+              "styling.hoverColor": "#d4d6d9",
+              "styling.borderColor": "#000",
+              "styling.borderWidth": 0,
+              "styling.borderRadius": 5,
+              "eventHandlers": [
+                {
+                  "handler": "click_handler",
+                  "event": "<Button-1>"
+                }
+              ],
+              "padding.padX": null,
+              "padding.padY": null,
+              "margin.marginX": null,
+              "margin.marginY": null,
+              "font.fontFamily": "",
+              "font.fontSize": 16,
+              "cursor": "",
+              "buttonLabel": ".",
+              "layout": {
+                "layout": null,
+                "gap": 10
+              }
+            },
+            "draggable": true,
+            "packAttrs": {
+              "side": "top",
+              "anchor": "n"
+            }
+          },
+          "extraProps": {},
+          "widgetClass": "button"
+        },
+        {
+          "id": "button_mf24bjbrrj3vy26sf1q",
+          "children": [],
+          "parent": "main_window_mf20s305gb21dgel2ft",
+          "initialData": {
+            "zIndex": 0,
+            "selected": false,
+            "widgetName": "Button",
+            "pos": {
+              "x": 87,
+              "y": 319
+            },
+            "size": {
+              "width": 51,
+              "height": 45
+            },
+            "fitContent": {
+              "width": false,
+              "height": false
+            },
+            "widgetContainer": "widget",
+            "parentLayout": {
+              "layout": "absolute",
+              "gap": 10
+            },
+            "positionType": "absolute",
+            "attrs": {
+              "styling.backgroundColor": "#e1dddd",
+              "styling.transparentBackground": false,
+              "styling.textColor": "#302c2c",
+              "styling.hoverColor": "#d4d6d9",
+              "styling.borderColor": "#000",
+              "styling.borderWidth": 0,
+              "styling.borderRadius": 5,
+              "eventHandlers": [
+                {
+                  "handler": "click_handler",
+                  "event": "<Button-1>"
+                }
+              ],
+              "padding.padX": null,
+              "padding.padY": null,
+              "margin.marginX": null,
+              "margin.marginY": null,
+              "font.fontFamily": "",
+              "font.fontSize": 16,
+              "cursor": "",
+              "buttonLabel": "0",
+              "layout": {
+                "layout": null,
+                "gap": 10
+              }
+            },
+            "draggable": true,
+            "packAttrs": {
+              "side": "top",
+              "anchor": "n"
+            }
+          },
+          "extraProps": {},
+          "widgetClass": "button"
+        },
+        {
+          "id": "button_mf24dlcpfo5cj47wa4q",
+          "children": [],
+          "parent": "main_window_mf20s305gb21dgel2ft",
+          "initialData": {
+            "zIndex": 0,
+            "selected": false,
+            "widgetName": "Button",
+            "pos": {
+              "x": 145,
+              "y": 319
+            },
+            "size": {
+              "width": 51,
+              "height": 45
+            },
+            "fitContent": {
+              "width": false,
+              "height": false
+            },
+            "widgetContainer": "widget",
+            "parentLayout": {
+              "layout": "absolute",
+              "gap": 10
+            },
+            "positionType": "absolute",
+            "attrs": {
+              "styling.backgroundColor": "#a9f4a5",
+              "styling.transparentBackground": false,
+              "styling.textColor": "#302c2c",
+              "styling.hoverColor": "#78ba86",
+              "styling.borderColor": "#000",
+              "styling.borderWidth": 0,
+              "styling.borderRadius": 5,
+              "eventHandlers": [
+                {
+                  "handler": "click_handler",
+                  "event": "<Button-1>"
+                }
+              ],
+              "padding.padX": null,
+              "padding.padY": null,
+              "margin.marginX": null,
+              "margin.marginY": null,
+              "font.fontFamily": "",
+              "font.fontSize": 16,
+              "cursor": "",
+              "buttonLabel": "=",
+              "layout": {
+                "layout": null,
+                "gap": 10
+              }
+            },
+            "draggable": true,
+            "packAttrs": {
+              "side": "top",
+              "anchor": "n"
+            }
+          },
+          "extraProps": {},
+          "widgetClass": "button"
+        },
+        {
+          "id": "button_mf24fn4i3xmeanf7r7d",
+          "children": [],
+          "parent": "main_window_mf20s305gb21dgel2ft",
+          "initialData": {
+            "zIndex": 0,
+            "selected": false,
+            "widgetName": "Button",
+            "pos": {
+              "x": 203,
+              "y": 319
+            },
+            "size": {
+              "width": 51,
+              "height": 45
+            },
+            "fitContent": {
+              "width": false,
+              "height": false
+            },
+            "widgetContainer": "widget",
+            "parentLayout": {
+              "layout": "absolute",
+              "gap": 10
+            },
+            "positionType": "absolute",
+            "attrs": {
+              "styling.backgroundColor": "#f9a23e",
+              "styling.transparentBackground": false,
+              "styling.textColor": "#302c2c",
+              "styling.hoverColor": "#d28227",
+              "styling.borderColor": "#000",
+              "styling.borderWidth": 0,
+              "styling.borderRadius": 5,
+              "eventHandlers": [
+                {
+                  "handler": "click_handler",
+                  "event": "<Button-1>"
+                }
+              ],
+              "padding.padX": null,
+              "padding.padY": null,
+              "margin.marginX": null,
+              "margin.marginY": null,
+              "font.fontFamily": "",
+              "font.fontSize": 16,
+              "cursor": "",
+              "buttonLabel": "x",
+              "layout": {
+                "layout": null,
+                "gap": 10
+              }
+            },
+            "draggable": true,
+            "packAttrs": {
+              "side": "top",
+              "anchor": "n"
+            }
+          },
+          "extraProps": {},
+          "widgetClass": "button"
+        },
+        {
+          "id": "button_mf24fi11nhoqrd64y3r",
+          "children": [],
+          "parent": "main_window_mf20s305gb21dgel2ft",
+          "initialData": {
+            "zIndex": 0,
+            "selected": false,
+            "widgetName": "Button",
+            "pos": {
+              "x": 203,
+              "y": 261
+            },
+            "size": {
+              "width": 51,
+              "height": 45
+            },
+            "fitContent": {
+              "width": false,
+              "height": false
+            },
+            "widgetContainer": "widget",
+            "parentLayout": {
+              "layout": "absolute",
+              "gap": 10
+            },
+            "positionType": "absolute",
+            "attrs": {
+              "styling.backgroundColor": "#f9a23e",
+              "styling.transparentBackground": false,
+              "styling.textColor": "#302c2c",
+              "styling.hoverColor": "#d28227",
+              "styling.borderColor": "#000",
+              "styling.borderWidth": 0,
+              "styling.borderRadius": 5,
+              "eventHandlers": [
+                {
+                  "handler": "click_handler",
+                  "event": "<Button-1>"
+                }
+              ],
+              "padding.padX": null,
+              "padding.padY": null,
+              "margin.marginX": null,
+              "margin.marginY": null,
+              "font.fontFamily": "",
+              "font.fontSize": 16,
+              "cursor": "",
+              "buttonLabel": "/",
+              "layout": {
+                "layout": null,
+                "gap": 10
+              }
+            },
+            "draggable": true,
+            "packAttrs": {
+              "side": "top",
+              "anchor": "n"
+            }
+          },
+          "extraProps": {},
+          "widgetClass": "button"
+        },
+        {
+          "id": "button_mf24a7rp9vtcvq8t0i",
+          "children": [],
+          "parent": "main_window_mf20s305gb21dgel2ft",
+          "initialData": {
+            "zIndex": 0,
+            "selected": false,
+            "widgetName": "Button",
+            "pos": {
+              "x": 145,
+              "y": 261
+            },
+            "size": {
+              "width": 51,
+              "height": 45
+            },
+            "fitContent": {
+              "width": false,
+              "height": false
+            },
+            "widgetContainer": "widget",
+            "parentLayout": {
+              "layout": "absolute",
+              "gap": 10
+            },
+            "positionType": "absolute",
+            "attrs": {
+              "styling.backgroundColor": "#e1dddd",
+              "styling.transparentBackground": false,
+              "styling.textColor": "#302c2c",
+              "styling.hoverColor": "#d4d6d9",
+              "styling.borderColor": "#000",
+              "styling.borderWidth": 0,
+              "styling.borderRadius": 5,
+              "eventHandlers": [
+                {
+                  "handler": "click_handler",
+                  "event": "<Button-1>"
+                }
+              ],
+              "padding.padX": null,
+              "padding.padY": null,
+              "margin.marginX": null,
+              "margin.marginY": null,
+              "font.fontFamily": "",
+              "font.fontSize": 16,
+              "cursor": "",
+              "buttonLabel": "3",
+              "layout": {
+                "layout": null,
+                "gap": 10
+              }
+            },
+            "draggable": true,
+            "packAttrs": {
+              "side": "top",
+              "anchor": "n"
+            }
+          },
+          "extraProps": {},
+          "widgetClass": "button"
+        },
+        {
+          "id": "button_mf24a49dk7aljqrb8qr",
+          "children": [],
+          "parent": "main_window_mf20s305gb21dgel2ft",
+          "initialData": {
+            "zIndex": 0,
+            "selected": false,
+            "widgetName": "Button",
+            "pos": {
+              "x": 87,
+              "y": 261
+            },
+            "size": {
+              "width": 51,
+              "height": 45
+            },
+            "fitContent": {
+              "width": false,
+              "height": false
+            },
+            "widgetContainer": "widget",
+            "parentLayout": {
+              "layout": "absolute",
+              "gap": 10
+            },
+            "positionType": "absolute",
+            "attrs": {
+              "styling.backgroundColor": "#e1dddd",
+              "styling.transparentBackground": false,
+              "styling.textColor": "#302c2c",
+              "styling.hoverColor": "#d4d6d9",
+              "styling.borderColor": "#000",
+              "styling.borderWidth": 0,
+              "styling.borderRadius": 5,
+              "eventHandlers": [
+                {
+                  "handler": "click_handler",
+                  "event": "<Button-1>"
+                }
+              ],
+              "padding.padX": null,
+              "padding.padY": null,
+              "margin.marginX": null,
+              "margin.marginY": null,
+              "font.fontFamily": "",
+              "font.fontSize": 16,
+              "cursor": "",
+              "buttonLabel": "2",
+              "layout": {
+                "layout": null,
+                "gap": 10
+              }
+            },
+            "draggable": true,
+            "packAttrs": {
+              "side": "top",
+              "anchor": "n"
+            }
+          },
+          "extraProps": {},
+          "widgetClass": "button"
+        },
+        {
+          "id": "button_mf247z3n0qm3g4om87m",
+          "children": [],
+          "parent": "main_window_mf20s305gb21dgel2ft",
+          "initialData": {
+            "zIndex": 0,
+            "selected": false,
+            "widgetName": "Button",
+            "pos": {
+              "x": 29,
+              "y": 261
+            },
+            "size": {
+              "width": 51,
+              "height": 45
+            },
+            "fitContent": {
+              "width": false,
+              "height": false
+            },
+            "widgetContainer": "widget",
+            "parentLayout": {
+              "layout": "absolute",
+              "gap": 10
+            },
+            "positionType": "absolute",
+            "attrs": {
+              "styling.backgroundColor": "#e1dddd",
+              "styling.transparentBackground": false,
+              "styling.textColor": "#302c2c",
+              "styling.hoverColor": "#d4d6d9",
+              "styling.borderColor": "#000",
+              "styling.borderWidth": 0,
+              "styling.borderRadius": 5,
+              "eventHandlers": [
+                {
+                  "handler": "click_handler",
+                  "event": "<Button-1>"
+                }
+              ],
+              "padding.padX": null,
+              "padding.padY": null,
+              "margin.marginX": null,
+              "margin.marginY": null,
+              "font.fontFamily": "",
+              "font.fontSize": 16,
+              "cursor": "",
+              "buttonLabel": "1",
+              "layout": {
+                "layout": null,
+                "gap": 10
+              }
+            },
+            "draggable": true,
+            "packAttrs": {
+              "side": "top",
+              "anchor": "n"
+            }
+          },
+          "extraProps": {},
+          "widgetClass": "button"
+        },
+        {
+          "id": "button_mf24avlwpi2ntw6xxx",
+          "children": [],
+          "parent": "main_window_mf20s305gb21dgel2ft",
+          "initialData": {
+            "zIndex": 0,
+            "selected": false,
+            "widgetName": "Button",
+            "pos": {
+              "x": 29,
+              "y": 203
+            },
+            "size": {
+              "width": 51,
+              "height": 45
+            },
+            "fitContent": {
+              "width": false,
+              "height": false
+            },
+            "widgetContainer": "widget",
+            "parentLayout": {
+              "layout": "absolute",
+              "gap": 10
+            },
+            "positionType": "absolute",
+            "attrs": {
+              "styling.backgroundColor": "#e1dddd",
+              "styling.transparentBackground": false,
+              "styling.textColor": "#302c2c",
+              "styling.hoverColor": "#d4d6d9",
+              "styling.borderColor": "#000",
+              "styling.borderWidth": 0,
+              "styling.borderRadius": 5,
+              "eventHandlers": [
+                {
+                  "handler": "click_handler",
+                  "event": "<Button-1>"
+                }
+              ],
+              "padding.padX": null,
+              "padding.padY": null,
+              "margin.marginX": null,
+              "margin.marginY": null,
+              "font.fontFamily": "",
+              "font.fontSize": 16,
+              "cursor": "",
+              "buttonLabel": "4",
+              "layout": {
+                "layout": null,
+                "gap": 10
+              }
+            },
+            "draggable": true,
+            "packAttrs": {
+              "side": "top",
+              "anchor": "n"
+            }
+          },
+          "extraProps": {},
+          "widgetClass": "button"
+        },
+        {
+          "id": "button_mf24azr4sjv3opf49ep",
+          "children": [],
+          "parent": "main_window_mf20s305gb21dgel2ft",
+          "initialData": {
+            "zIndex": 0,
+            "selected": false,
+            "widgetName": "Button",
+            "pos": {
+              "x": 87,
+              "y": 203
+            },
+            "size": {
+              "width": 51,
+              "height": 45
+            },
+            "fitContent": {
+              "width": false,
+              "height": false
+            },
+            "widgetContainer": "widget",
+            "parentLayout": {
+              "layout": "absolute",
+              "gap": 10
+            },
+            "positionType": "absolute",
+            "attrs": {
+              "styling.backgroundColor": "#e1dddd",
+              "styling.transparentBackground": false,
+              "styling.textColor": "#302c2c",
+              "styling.hoverColor": "#d4d6d9",
+              "styling.borderColor": "#000",
+              "styling.borderWidth": 0,
+              "styling.borderRadius": 5,
+              "eventHandlers": [
+                {
+                  "handler": "click_handler",
+                  "event": "<Button-1>"
+                }
+              ],
+              "padding.padX": null,
+              "padding.padY": null,
+              "margin.marginX": null,
+              "margin.marginY": null,
+              "font.fontFamily": "",
+              "font.fontSize": 16,
+              "cursor": "",
+              "buttonLabel": "5",
+              "layout": {
+                "layout": null,
+                "gap": 10
+              }
+            },
+            "draggable": true,
+            "packAttrs": {
+              "side": "top",
+              "anchor": "n"
+            }
+          },
+          "extraProps": {},
+          "widgetClass": "button"
+        },
+        {
+          "id": "button_mf24b3iexc7d366ol8f",
+          "children": [],
+          "parent": "main_window_mf20s305gb21dgel2ft",
+          "initialData": {
+            "zIndex": 0,
+            "selected": false,
+            "widgetName": "Button",
+            "pos": {
+              "x": 145,
+              "y": 203
+            },
+            "size": {
+              "width": 51,
+              "height": 45
+            },
+            "fitContent": {
+              "width": false,
+              "height": false
+            },
+            "widgetContainer": "widget",
+            "parentLayout": {
+              "layout": "absolute",
+              "gap": 10
+            },
+            "positionType": "absolute",
+            "attrs": {
+              "styling.backgroundColor": "#e1dddd",
+              "styling.transparentBackground": false,
+              "styling.textColor": "#302c2c",
+              "styling.hoverColor": "#d4d6d9",
+              "styling.borderColor": "#000",
+              "styling.borderWidth": 0,
+              "styling.borderRadius": 5,
+              "eventHandlers": [
+                {
+                  "handler": "click_handler",
+                  "event": "<Button-1>"
+                }
+              ],
+              "padding.padX": null,
+              "padding.padY": null,
+              "margin.marginX": null,
+              "margin.marginY": null,
+              "font.fontFamily": "",
+              "font.fontSize": 16,
+              "cursor": "",
+              "buttonLabel": "6",
+              "layout": {
+                "layout": null,
+                "gap": 10
+              }
+            },
+            "draggable": true,
+            "packAttrs": {
+              "side": "top",
+              "anchor": "n"
+            }
+          },
+          "extraProps": {},
+          "widgetClass": "button"
+        },
+        {
+          "id": "button_mf24fdpqtyvs5mngmsb",
+          "children": [],
+          "parent": "main_window_mf20s305gb21dgel2ft",
+          "initialData": {
+            "zIndex": 0,
+            "selected": false,
+            "widgetName": "Button",
+            "pos": {
+              "x": 203,
+              "y": 203
+            },
+            "size": {
+              "width": 51,
+              "height": 45
+            },
+            "fitContent": {
+              "width": false,
+              "height": false
+            },
+            "widgetContainer": "widget",
+            "parentLayout": {
+              "layout": "absolute",
+              "gap": 10
+            },
+            "positionType": "absolute",
+            "attrs": {
+              "styling.backgroundColor": "#f9a23e",
+              "styling.transparentBackground": false,
+              "styling.textColor": "#302c2c",
+              "styling.hoverColor": "#d28227",
+              "styling.borderColor": "#000",
+              "styling.borderWidth": 0,
+              "styling.borderRadius": 5,
+              "eventHandlers": [
+                {
+                  "handler": "click_handler",
+                  "event": "<Button-1>"
+                }
+              ],
+              "padding.padX": null,
+              "padding.padY": null,
+              "margin.marginX": null,
+              "margin.marginY": null,
+              "font.fontFamily": "",
+              "font.fontSize": 16,
+              "cursor": "",
+              "buttonLabel": "+",
+              "layout": {
+                "layout": null,
+                "gap": 10
+              }
+            },
+            "draggable": true,
+            "packAttrs": {
+              "side": "top",
+              "anchor": "n"
+            }
+          },
+          "extraProps": {},
+          "widgetClass": "button"
+        },
+        {
+          "id": "button_mf24b89ns8qr6swqkjo",
+          "children": [],
+          "parent": "main_window_mf20s305gb21dgel2ft",
+          "initialData": {
+            "zIndex": 0,
+            "selected": false,
+            "widgetName": "Button",
+            "pos": {
+              "x": 29,
+              "y": 145
+            },
+            "size": {
+              "width": 51,
+              "height": 45
+            },
+            "fitContent": {
+              "width": false,
+              "height": false
+            },
+            "widgetContainer": "widget",
+            "parentLayout": {
+              "layout": "absolute",
+              "gap": 10
+            },
+            "positionType": "absolute",
+            "attrs": {
+              "styling.backgroundColor": "#e1dddd",
+              "styling.transparentBackground": false,
+              "styling.textColor": "#302c2c",
+              "styling.hoverColor": "#d4d6d9",
+              "styling.borderColor": "#000",
+              "styling.borderWidth": 0,
+              "styling.borderRadius": 5,
+              "eventHandlers": [
+                {
+                  "handler": "click_handler",
+                  "event": "<Button-1>"
+                }
+              ],
+              "padding.padX": null,
+              "padding.padY": null,
+              "margin.marginX": null,
+              "margin.marginY": null,
+              "font.fontFamily": "",
+              "font.fontSize": 16,
+              "cursor": "",
+              "buttonLabel": "7",
+              "layout": {
+                "layout": null,
+                "gap": 10
+              }
+            },
+            "draggable": true,
+            "packAttrs": {
+              "side": "top",
+              "anchor": "n"
+            }
+          },
+          "extraProps": {},
+          "widgetClass": "button"
+        },
+        {
+          "id": "button_mf24bcfdvsdibl5n7km",
+          "children": [],
+          "parent": "main_window_mf20s305gb21dgel2ft",
+          "initialData": {
+            "zIndex": 0,
+            "selected": false,
+            "widgetName": "Button",
+            "pos": {
+              "x": 87,
+              "y": 145
+            },
+            "size": {
+              "width": 51,
+              "height": 45
+            },
+            "fitContent": {
+              "width": false,
+              "height": false
+            },
+            "widgetContainer": "widget",
+            "parentLayout": {
+              "layout": "absolute",
+              "gap": 10
+            },
+            "positionType": "absolute",
+            "attrs": {
+              "styling.backgroundColor": "#e1dddd",
+              "styling.transparentBackground": false,
+              "styling.textColor": "#302c2c",
+              "styling.hoverColor": "#d4d6d9",
+              "styling.borderColor": "#000",
+              "styling.borderWidth": 0,
+              "styling.borderRadius": 5,
+              "eventHandlers": [
+                {
+                  "handler": "click_handler",
+                  "event": "<Button-1>"
+                }
+              ],
+              "padding.padX": null,
+              "padding.padY": null,
+              "margin.marginX": null,
+              "margin.marginY": null,
+              "font.fontFamily": "",
+              "font.fontSize": 16,
+              "cursor": "",
+              "buttonLabel": "8",
+              "layout": {
+                "layout": null,
+                "gap": 10
+              }
+            },
+            "draggable": true,
+            "packAttrs": {
+              "side": "top",
+              "anchor": "n"
+            }
+          },
+          "extraProps": {},
+          "widgetClass": "button"
+        },
+        {
+          "id": "button_mf24bfqj71ea0lazkmo",
+          "children": [],
+          "parent": "main_window_mf20s305gb21dgel2ft",
+          "initialData": {
+            "zIndex": 0,
+            "selected": false,
+            "widgetName": "Button",
+            "pos": {
+              "x": 145,
+              "y": 145
+            },
+            "size": {
+              "width": 51,
+              "height": 45
+            },
+            "fitContent": {
+              "width": false,
+              "height": false
+            },
+            "widgetContainer": "widget",
+            "parentLayout": {
+              "layout": "absolute",
+              "gap": 10
+            },
+            "positionType": "absolute",
+            "attrs": {
+              "styling.backgroundColor": "#e1dddd",
+              "styling.transparentBackground": false,
+              "styling.textColor": "#302c2c",
+              "styling.hoverColor": "#d4d6d9",
+              "styling.borderColor": "#000",
+              "styling.borderWidth": 0,
+              "styling.borderRadius": 5,
+              "eventHandlers": [
+                {
+                  "handler": "click_handler",
+                  "event": "<Button-1>"
+                }
+              ],
+              "padding.padX": null,
+              "padding.padY": null,
+              "margin.marginX": null,
+              "margin.marginY": null,
+              "font.fontFamily": "",
+              "font.fontSize": 16,
+              "cursor": "",
+              "buttonLabel": "9",
+              "layout": {
+                "layout": null,
+                "gap": 10
+              }
+            },
+            "draggable": true,
+            "packAttrs": {
+              "side": "top",
+              "anchor": "n"
+            }
+          },
+          "extraProps": {},
+          "widgetClass": "button"
+        },
+        {
+          "id": "button_mf24e21lwwghl0z5gj",
+          "children": [],
+          "parent": "main_window_mf20s305gb21dgel2ft",
+          "initialData": {
+            "zIndex": 0,
+            "selected": false,
+            "widgetName": "Button",
+            "pos": {
+              "x": 203,
+              "y": 145
+            },
+            "size": {
+              "width": 51,
+              "height": 45
+            },
+            "fitContent": {
+              "width": false,
+              "height": false
+            },
+            "widgetContainer": "widget",
+            "parentLayout": {
+              "layout": "absolute",
+              "gap": 10
+            },
+            "positionType": "absolute",
+            "attrs": {
+              "styling.backgroundColor": "#f9a23e",
+              "styling.transparentBackground": false,
+              "styling.textColor": "#302c2c",
+              "styling.hoverColor": "#d28227",
+              "styling.borderColor": "#000",
+              "styling.borderWidth": 0,
+              "styling.borderRadius": 5,
+              "eventHandlers": [
+                {
+                  "handler": "click_handler",
+                  "event": "<Button-1>"
+                }
+              ],
+              "padding.padX": null,
+              "padding.padY": null,
+              "margin.marginX": null,
+              "margin.marginY": null,
+              "font.fontFamily": "",
+              "font.fontSize": 16,
+              "cursor": "",
+              "buttonLabel": "-",
+              "layout": {
+                "layout": null,
+                "gap": 10
+              }
+            },
+            "draggable": true,
+            "packAttrs": {
+              "side": "top",
+              "anchor": "n"
+            }
+          },
+          "extraProps": {},
+          "widgetClass": "button"
+        },
+        {
+          "id": "button_mf25rieca30r4bconr7",
+          "children": [],
+          "parent": "main_window_mf20s305gb21dgel2ft",
+          "initialData": {
+            "zIndex": 0,
+            "selected": false,
+            "widgetName": "Button",
+            "pos": {
+              "x": 29,
+              "y": 87
+            },
+            "size": {
+              "width": 51,
+              "height": 45
+            },
+            "fitContent": {
+              "width": false,
+              "height": false
+            },
+            "widgetContainer": "widget",
+            "parentLayout": {
+              "layout": "absolute",
+              "gap": 10
+            },
+            "positionType": "absolute",
+            "attrs": {
+              "styling.backgroundColor": "#e68282",
+              "styling.transparentBackground": false,
+              "styling.textColor": "#211e1e",
+              "styling.hoverColor": "#d46c68",
+              "styling.borderColor": "#000",
+              "styling.borderWidth": 0,
+              "styling.borderRadius": 5,
+              "eventHandlers": [
+                {
+                  "handler": "click_handler",
+                  "event": "<Button-1>"
+                }
+              ],
+              "padding.padX": null,
+              "padding.padY": null,
+              "margin.marginX": null,
+              "margin.marginY": null,
+              "font.fontFamily": "",
+              "font.fontSize": 16,
+              "cursor": "",
+              "buttonLabel": "C",
+              "layout": {
+                "layout": null,
+                "gap": 10
+              }
+            },
+            "draggable": true,
+            "packAttrs": {
+              "side": "top",
+              "anchor": "n"
+            }
+          },
+          "extraProps": {},
+          "widgetClass": "button"
+        },
+        {
+          "id": "label_mf24g4um40406hd7m7b",
+          "children": [],
+          "parent": "main_window_mf20s305gb21dgel2ft",
+          "initialData": {
+            "zIndex": 0,
+            "selected": false,
+            "widgetName": "Label",
+            "pos": {
+              "x": 42,
+              "y": 11.65625
+            },
+            "size": {
+              "width": 214,
+              "height": 45
+            },
+            "fitContent": {
+              "width": false,
+              "height": false
+            },
+            "widgetContainer": "widget",
+            "parentLayout": {
+              "layout": "absolute",
+              "gap": 10
+            },
+            "positionType": "absolute",
+            "attrs": {
+              "styling.backgroundColor": "#231d1d",
+              "styling.transparentBackground": true,
+              "styling.textColor": "#252121",
+              "styling.borderWidth": 0,
+              "styling.anchor": "e",
+              "layout": {
+                "layout": "absolute",
+                "gap": 10
+              },
+              "eventHandlers": [],
+              "labelWidget": "0",
+              "imageUpload": "",
+              "imageSize.mode": "cover",
+              "font.fontFamily": "TkTextFont",
+              "font.fontSize": 22,
+              "cursor": "",
+              "padding.padX": null,
+              "padding.padY": null,
+              "margin.marginX": null,
+              "margin.marginY": null
+            },
+            "draggable": true,
+            "packAttrs": {
+              "side": "top",
+              "anchor": "n"
+            }
+          },
+          "extraProps": {},
+          "widgetClass": "label"
+        }
+      ],
+      "parent": "",
+      "initialData": {
+        "pos": {
+          "x": 234,
+          "y": 211.34375
+        },
+        "zIndex": 1000,
+        "selected": true,
+        "widgetName": "main",
+        "size": {
+          "width": 276,
+          "height": 411
+        },
+        "fitContent": {
+          "width": false,
+          "height": false
+        },
+        "widgetContainer": "canvas",
+        "positionType": "absolute",
+        "attrs": {
+          "styling.backgroundColor": "#ffffff",
+          "layout": {
+            "layout": "absolute",
+            "gap": 10
+          },
+          "eventHandlers": [],
+          "resizable.x": false,
+          "resizable.y": false,
+          "maximized": false,
+          "title": "Calculator",
+          "logo": ""
+        },
+        "draggable": true,
+        "packAttrs": {
+          "side": "top",
+          "anchor": "n"
+        },
+        "id": "main_window_mf20s305gb21dgel2ft"
+      },
+      "extraProps": {},
+      "widgetClass": "main_window"
+    }
+  ],
+  "code": "\nexpression = \"\"  # store the current expression globally\n\ndef click_handler(event):\n    global expression\n    widget = event.widget\n\n    # climb up if we clicked inside CTkButton's canvas\n    if isinstance(widget, ctk.CTkButton):\n        button = widget\n    else:\n        button = widget.master\n\n    if not isinstance(button, ctk.CTkButton):\n        return\n\n    value = button.cget(\"text\")\n\n    if value == \"C\":\n        expression = \"\"\n        label.configure(text=\"0\")\n    elif value == \"=\":\n        try:\n\t\t\t#evaluate the expressio\n            safe_expression = expression.replace(\"x\", \"*\")\n            result = str(eval(safe_expression))\n            label.configure(text=result)\n            expression = result\n        except Exception:\n            label.configure(text=\"Error\")\n            expression = \"\"\n    else:\n        expression += value\n        label.configure(text=expression)\n\n\t\n\n# buttons: #EFEFEF\n# background: white\t\n# calculate buttons: #F9A23E"
+}

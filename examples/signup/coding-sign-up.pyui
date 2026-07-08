@@ -1,0 +1,1014 @@
+{
+  "framework": "PySide",
+  "projectName": "Sign up",
+  "canvasData": [
+    {
+      "id": "main_window_mil0javih7ystcd7iwj",
+      "children": [
+        {
+          "id": "label_mil0lhuyyvwe2bk39m",
+          "children": [],
+          "parent": "main_window_mil0javih7ystcd7iwj",
+          "initialData": {
+            "zIndex": 0,
+            "selected": false,
+            "widgetName": "Label",
+            "pos": {
+              "x": 422,
+              "y": 25.9921875
+            },
+            "size": {
+              "width": 215,
+              "height": 34
+            },
+            "fitContent": {
+              "width": false,
+              "height": false
+            },
+            "widgetContainer": "widget",
+            "parentLayout": {
+              "layout": "absolute"
+            },
+            "positionType": "absolute",
+            "attrs": {
+              "styling.backgroundColor": "rgba(240,240,240,0)",
+              "styling.foregroundColor": "#000",
+              "styling.hover.hoverColorEnabled": false,
+              "styling.hover.hoverColor": "#000",
+              "styling.hover.hoverBgEnabled": false,
+              "styling.hover.hoverBg": "rgba(240,240,240,0)",
+              "styling.borderWidth": 0,
+              "styling.borderColor": "#000000",
+              "styling.borderRadius": 2,
+              "isHidden": false,
+              "eventHandlers": [],
+              "padding.padX": null,
+              "padding.padY": null,
+              "margin.marginX": null,
+              "margin.marginY": null,
+              "font.fontFamily": "",
+              "font.fontSize": 25,
+              "font.fontWeight": true,
+              "font.fontItalics": false,
+              "font.fontUnderline": false,
+              "cursor": "",
+              "labelText": "Create Account",
+              "imageUpload": "",
+              "imageMode": "cover",
+              "anchor": "center",
+              "layout": {
+                "layout": "flex",
+                "gap": 10
+              }
+            },
+            "draggable": true,
+            "id": "label_mil0lhuyyvwe2bk39m"
+          },
+          "extraProps": {},
+          "widgetClass": "label"
+        },
+        {
+          "id": "label_mil0nrqc7q3z9vtjomr",
+          "children": [],
+          "parent": "main_window_mil0javih7ystcd7iwj",
+          "initialData": {
+            "zIndex": 0,
+            "selected": false,
+            "widgetName": "Label",
+            "pos": {
+              "x": 375.9921875,
+              "y": 84
+            },
+            "size": {
+              "width": 100,
+              "height": 30
+            },
+            "fitContent": {
+              "width": false,
+              "height": false
+            },
+            "widgetContainer": "widget",
+            "parentLayout": {
+              "layout": "absolute"
+            },
+            "positionType": "absolute",
+            "attrs": {
+              "styling.backgroundColor": "rgba(240,240,240,0)",
+              "styling.foregroundColor": "#000",
+              "styling.hover.hoverColorEnabled": false,
+              "styling.hover.hoverColor": "#000",
+              "styling.hover.hoverBgEnabled": false,
+              "styling.hover.hoverBg": "rgba(240,240,240,0)",
+              "styling.borderWidth": 0,
+              "styling.borderColor": "#000000",
+              "styling.borderRadius": 2,
+              "isHidden": false,
+              "eventHandlers": [],
+              "padding.padX": null,
+              "padding.padY": null,
+              "margin.marginX": null,
+              "margin.marginY": null,
+              "font.fontFamily": "",
+              "font.fontSize": 13,
+              "font.fontWeight": true,
+              "font.fontItalics": false,
+              "font.fontUnderline": false,
+              "cursor": "",
+              "labelText": "Email",
+              "imageUpload": "",
+              "imageMode": "cover",
+              "anchor": "center",
+              "layout": {
+                "layout": "flex",
+                "gap": 10
+              }
+            },
+            "draggable": true,
+            "id": "label_mil0nrqc7q3z9vtjomr"
+          },
+          "extraProps": {},
+          "widgetClass": "label"
+        },
+        {
+          "id": "entry_mil0omqjtz59wstjao",
+          "children": [],
+          "parent": "main_window_mil0javih7ystcd7iwj",
+          "initialData": {
+            "zIndex": 0,
+            "selected": false,
+            "widgetName": "Entry",
+            "pos": {
+              "x": 485,
+              "y": 79
+            },
+            "size": {
+              "width": 192,
+              "height": 35
+            },
+            "fitContent": {
+              "width": false,
+              "height": false
+            },
+            "widgetContainer": "widget",
+            "parentLayout": {
+              "layout": "absolute"
+            },
+            "positionType": "absolute",
+            "attrs": {
+              "styling.backgroundColor": "#f0f0f0",
+              "styling.foregroundColor": "#000",
+              "styling.hover.hoverColorEnabled": false,
+              "styling.hover.hoverColor": "#000",
+              "styling.hover.hoverBgEnabled": false,
+              "styling.hover.hoverBg": "#f0f0f0",
+              "styling.borderWidth": 1,
+              "styling.borderColor": "#a9a9a9",
+              "styling.borderRadius": 2,
+              "isHidden": false,
+              "eventHandlers": [],
+              "padding.padX": null,
+              "padding.padY": null,
+              "margin.marginX": null,
+              "margin.marginY": null,
+              "font.fontFamily": "",
+              "font.fontSize": 13,
+              "font.fontWeight": false,
+              "font.fontItalics": false,
+              "font.fontUnderline": false,
+              "cursor": "",
+              "placeHolder": "Enter your Email Address...",
+              "layout": {
+                "layout": "flex",
+                "gap": 10
+              }
+            },
+            "draggable": true,
+            "id": "entry_mil0omqjtz59wstjao"
+          },
+          "extraProps": {},
+          "widgetClass": "entry"
+        },
+        {
+          "id": "label_mil0psx045o1rtfqb2a",
+          "children": [],
+          "parent": "main_window_mil0javih7ystcd7iwj",
+          "initialData": {
+            "zIndex": 0,
+            "selected": false,
+            "widgetName": "Label",
+            "pos": {
+              "x": 373,
+              "y": 137
+            },
+            "size": {
+              "width": 100,
+              "height": 30
+            },
+            "fitContent": {
+              "width": false,
+              "height": false
+            },
+            "widgetContainer": "widget",
+            "parentLayout": {
+              "layout": "absolute"
+            },
+            "positionType": "absolute",
+            "attrs": {
+              "styling.backgroundColor": "rgba(240,240,240,0)",
+              "styling.foregroundColor": "#000",
+              "styling.hover.hoverColorEnabled": false,
+              "styling.hover.hoverColor": "#000",
+              "styling.hover.hoverBgEnabled": false,
+              "styling.hover.hoverBg": "rgba(240,240,240,0)",
+              "styling.borderWidth": 0,
+              "styling.borderColor": "#000000",
+              "styling.borderRadius": 2,
+              "isHidden": false,
+              "eventHandlers": [],
+              "padding.padX": null,
+              "padding.padY": null,
+              "margin.marginX": null,
+              "margin.marginY": null,
+              "font.fontFamily": "",
+              "font.fontSize": 13,
+              "font.fontWeight": true,
+              "font.fontItalics": false,
+              "font.fontUnderline": false,
+              "cursor": "",
+              "labelText": "Password",
+              "imageUpload": "",
+              "imageMode": "cover",
+              "anchor": "center",
+              "layout": {
+                "layout": "flex",
+                "gap": 10
+              }
+            },
+            "draggable": true,
+            "id": "label_mil0psx045o1rtfqb2a"
+          },
+          "extraProps": {},
+          "widgetClass": "label"
+        },
+        {
+          "id": "entry_mil0qi15je6n093ty7h",
+          "children": [],
+          "parent": "main_window_mil0javih7ystcd7iwj",
+          "initialData": {
+            "zIndex": 0,
+            "selected": false,
+            "widgetName": "Entry",
+            "pos": {
+              "x": 486.9921875,
+              "y": 135
+            },
+            "size": {
+              "width": 192,
+              "height": 35
+            },
+            "fitContent": {
+              "width": false,
+              "height": false
+            },
+            "widgetContainer": "widget",
+            "parentLayout": {
+              "layout": "absolute"
+            },
+            "positionType": "absolute",
+            "attrs": {
+              "styling.backgroundColor": "#f0f0f0",
+              "styling.foregroundColor": "#000",
+              "styling.hover.hoverColorEnabled": false,
+              "styling.hover.hoverColor": "#000",
+              "styling.hover.hoverBgEnabled": false,
+              "styling.hover.hoverBg": "#f0f0f0",
+              "styling.borderWidth": 1,
+              "styling.borderColor": "#a9a9a9",
+              "styling.borderRadius": 2,
+              "isHidden": false,
+              "eventHandlers": [],
+              "padding.padX": null,
+              "padding.padY": null,
+              "margin.marginX": null,
+              "margin.marginY": null,
+              "font.fontFamily": "",
+              "font.fontSize": 13,
+              "font.fontWeight": false,
+              "font.fontItalics": false,
+              "font.fontUnderline": false,
+              "cursor": "",
+              "placeHolder": "Enter your Password...",
+              "layout": {
+                "layout": "flex",
+                "gap": 10
+              }
+            },
+            "draggable": true,
+            "id": "entry_mil0qi15je6n093ty7h"
+          },
+          "extraProps": {},
+          "widgetClass": "entry"
+        },
+        {
+          "id": "button_mil0ri9gzvmeonup4cg",
+          "children": [],
+          "parent": "main_window_mil0javih7ystcd7iwj",
+          "initialData": {
+            "zIndex": 0,
+            "selected": false,
+            "widgetName": "Button",
+            "pos": {
+              "x": 374,
+              "y": 186
+            },
+            "size": {
+              "width": 306,
+              "height": 47
+            },
+            "fitContent": {
+              "width": false,
+              "height": false
+            },
+            "widgetContainer": "widget",
+            "parentLayout": {
+              "layout": "absolute"
+            },
+            "positionType": "absolute",
+            "attrs": {
+              "styling.backgroundColor": "rgb(46,46,46)",
+              "styling.foregroundColor": "rgb(255,255,255)",
+              "styling.hover.hoverColorEnabled": false,
+              "styling.hover.hoverColor": "#000",
+              "styling.hover.hoverBgEnabled": true,
+              "styling.hover.hoverBg": "rgb(0,0,0)",
+              "styling.borderWidth": 1,
+              "styling.borderColor": "#000000",
+              "styling.borderRadius": 8,
+              "isHidden": false,
+              "eventHandlers": [],
+              "padding.padX": null,
+              "padding.padY": null,
+              "margin.marginX": null,
+              "margin.marginY": null,
+              "font.fontFamily": "",
+              "font.fontSize": 17,
+              "font.fontWeight": true,
+              "font.fontItalics": false,
+              "font.fontUnderline": false,
+              "cursor": "",
+              "buttonLabel": "Sign up",
+              "imageUpload": "",
+              "imageDisplayMode": "icon",
+              "imageWidth": 24,
+              "imageHeight": 24,
+              "layout": {
+                "layout": "flex",
+                "gap": 10
+              }
+            },
+            "draggable": true,
+            "id": "button_mil0ri9gzvmeonup4cg"
+          },
+          "extraProps": {},
+          "widgetClass": "button"
+        },
+        {
+          "id": "label_mil0ujoze02lgw1k8a5",
+          "children": [],
+          "parent": "main_window_mil0javih7ystcd7iwj",
+          "initialData": {
+            "zIndex": 0,
+            "selected": false,
+            "widgetName": "Label",
+            "pos": {
+              "x": 469.9921875,
+              "y": 241.9921875
+            },
+            "size": {
+              "width": 117,
+              "height": 28
+            },
+            "fitContent": {
+              "width": false,
+              "height": false
+            },
+            "widgetContainer": "widget",
+            "parentLayout": {
+              "layout": "absolute"
+            },
+            "positionType": "absolute",
+            "attrs": {
+              "styling.backgroundColor": "rgba(240,240,240,0)",
+              "styling.foregroundColor": "#000",
+              "styling.hover.hoverColorEnabled": false,
+              "styling.hover.hoverColor": "#000",
+              "styling.hover.hoverBgEnabled": false,
+              "styling.hover.hoverBg": "rgba(240,240,240,0)",
+              "styling.borderWidth": 0,
+              "styling.borderColor": "rgba(0,0,0,0)",
+              "styling.borderRadius": 2,
+              "isHidden": false,
+              "eventHandlers": [],
+              "padding.padX": null,
+              "padding.padY": null,
+              "margin.marginX": null,
+              "margin.marginY": null,
+              "font.fontFamily": "",
+              "font.fontSize": 13,
+              "font.fontWeight": false,
+              "font.fontItalics": false,
+              "font.fontUnderline": false,
+              "cursor": "",
+              "labelText": "Or sign up with",
+              "imageUpload": "",
+              "imageMode": "cover",
+              "anchor": "center",
+              "layout": {
+                "layout": "flex",
+                "gap": 10
+              }
+            },
+            "draggable": true,
+            "id": "label_mil0ujoze02lgw1k8a5"
+          },
+          "extraProps": {},
+          "widgetClass": "label"
+        },
+        {
+          "id": "label_mil0zgce2znhlf6pcl2",
+          "children": [],
+          "parent": "main_window_mil0javih7ystcd7iwj",
+          "initialData": {
+            "zIndex": 0,
+            "selected": false,
+            "widgetName": "Label",
+            "pos": {
+              "x": 603.2734375,
+              "y": 282.09375
+            },
+            "size": {
+              "width": 40,
+              "height": 40
+            },
+            "fitContent": {
+              "width": false,
+              "height": false
+            },
+            "widgetContainer": "widget",
+            "parentLayout": {
+              "layout": "absolute"
+            },
+            "positionType": "absolute",
+            "attrs": {
+              "styling.backgroundColor": "rgba(240,240,240,0)",
+              "styling.foregroundColor": "#000",
+              "styling.hover.hoverColorEnabled": false,
+              "styling.hover.hoverColor": "#000",
+              "styling.hover.hoverBgEnabled": false,
+              "styling.hover.hoverBg": "rgba(240,240,240,0)",
+              "styling.borderWidth": 0,
+              "styling.borderColor": "#000000",
+              "styling.borderRadius": 2,
+              "isHidden": false,
+              "eventHandlers": [],
+              "padding.padX": null,
+              "padding.padY": null,
+              "margin.marginX": null,
+              "margin.marginY": null,
+              "font.fontFamily": "",
+              "font.fontSize": 13,
+              "font.fontWeight": false,
+              "font.fontItalics": false,
+              "font.fontUnderline": false,
+              "cursor": "",
+              "labelText": "",
+              "imageUpload": {
+                "name": "Logo.png",
+                "previewUrl": "blob:http://localhost:3000/e8a7f2f1-4c62-4ea0-bedb-af0f76fef17b"
+              },
+              "imageMode": "cover",
+              "anchor": "center",
+              "layout": {
+                "layout": "flex",
+                "gap": 10
+              }
+            },
+            "draggable": true,
+            "id": "label_mil0zgce2znhlf6pcl2"
+          },
+          "extraProps": {},
+          "widgetClass": "label"
+        },
+        {
+          "id": "label_mil0wldl2t5bv71njr",
+          "children": [],
+          "parent": "main_window_mil0javih7ystcd7iwj",
+          "initialData": {
+            "zIndex": 0,
+            "selected": false,
+            "widgetName": "Label",
+            "pos": {
+              "x": 405.71875,
+              "y": 283.78125
+            },
+            "size": {
+              "width": 40,
+              "height": 40
+            },
+            "fitContent": {
+              "width": false,
+              "height": false
+            },
+            "widgetContainer": "widget",
+            "parentLayout": {
+              "layout": "absolute"
+            },
+            "positionType": "absolute",
+            "attrs": {
+              "styling.backgroundColor": "rgba(240,240,240,0)",
+              "styling.foregroundColor": "#000",
+              "styling.hover.hoverColorEnabled": false,
+              "styling.hover.hoverColor": "#000",
+              "styling.hover.hoverBgEnabled": false,
+              "styling.hover.hoverBg": "rgba(240,240,240,0)",
+              "styling.borderWidth": 0,
+              "styling.borderColor": "#000000",
+              "styling.borderRadius": 2,
+              "isHidden": false,
+              "eventHandlers": [],
+              "padding.padX": null,
+              "padding.padY": null,
+              "margin.marginX": null,
+              "margin.marginY": null,
+              "font.fontFamily": "",
+              "font.fontSize": 13,
+              "font.fontWeight": false,
+              "font.fontItalics": false,
+              "font.fontUnderline": false,
+              "cursor": "",
+              "labelText": "",
+              "imageUpload": {
+                "name": "Symbol (2).png",
+                "previewUrl": "blob:http://localhost:3000/6487594d-db43-4b3d-b8ae-1cd74db2d75e"
+              },
+              "imageMode": "cover",
+              "anchor": "center",
+              "layout": {
+                "layout": "flex",
+                "gap": 10
+              }
+            },
+            "draggable": true,
+            "id": "label_mil0wldl2t5bv71njr"
+          },
+          "extraProps": {},
+          "widgetClass": "label"
+        },
+        {
+          "id": "label_mil0yhx6wxx20obi2mc",
+          "children": [],
+          "parent": "main_window_mil0javih7ystcd7iwj",
+          "initialData": {
+            "zIndex": 0,
+            "selected": false,
+            "widgetName": "Label",
+            "pos": {
+              "x": 468.765625,
+              "y": 282.9375
+            },
+            "size": {
+              "width": 40,
+              "height": 40
+            },
+            "fitContent": {
+              "width": false,
+              "height": false
+            },
+            "widgetContainer": "widget",
+            "parentLayout": {
+              "layout": "absolute"
+            },
+            "positionType": "absolute",
+            "attrs": {
+              "styling.backgroundColor": "rgba(240,240,240,0)",
+              "styling.foregroundColor": "#000",
+              "styling.hover.hoverColorEnabled": false,
+              "styling.hover.hoverColor": "#000",
+              "styling.hover.hoverBgEnabled": false,
+              "styling.hover.hoverBg": "rgba(240,240,240,0)",
+              "styling.borderWidth": 0,
+              "styling.borderColor": "#000000",
+              "styling.borderRadius": 2,
+              "isHidden": false,
+              "eventHandlers": [],
+              "padding.padX": null,
+              "padding.padY": null,
+              "margin.marginX": null,
+              "margin.marginY": null,
+              "font.fontFamily": "",
+              "font.fontSize": 13,
+              "font.fontWeight": false,
+              "font.fontItalics": false,
+              "font.fontUnderline": false,
+              "cursor": "",
+              "labelText": "",
+              "imageUpload": {
+                "name": "Symbol.png",
+                "previewUrl": "blob:http://localhost:3000/964bc04d-10c1-405c-9fad-b5add348ec98"
+              },
+              "imageMode": "cover",
+              "anchor": "center",
+              "layout": {
+                "layout": "flex",
+                "gap": 10
+              }
+            },
+            "draggable": true,
+            "id": "label_mil0yhx6wxx20obi2mc"
+          },
+          "extraProps": {},
+          "widgetClass": "label"
+        },
+        {
+          "id": "label_mil0z0t3r8q7qt2uug",
+          "children": [],
+          "parent": "main_window_mil0javih7ystcd7iwj",
+          "initialData": {
+            "zIndex": 0,
+            "selected": false,
+            "widgetName": "Label",
+            "pos": {
+              "x": 534.34375,
+              "y": 282.09375
+            },
+            "size": {
+              "width": 40,
+              "height": 40
+            },
+            "fitContent": {
+              "width": false,
+              "height": false
+            },
+            "widgetContainer": "widget",
+            "parentLayout": {
+              "layout": "absolute"
+            },
+            "positionType": "absolute",
+            "attrs": {
+              "styling.backgroundColor": "rgba(240,240,240,0)",
+              "styling.foregroundColor": "#000",
+              "styling.hover.hoverColorEnabled": false,
+              "styling.hover.hoverColor": "#000",
+              "styling.hover.hoverBgEnabled": false,
+              "styling.hover.hoverBg": "rgba(240,240,240,0)",
+              "styling.borderWidth": 0,
+              "styling.borderColor": "#000000",
+              "styling.borderRadius": 2,
+              "isHidden": false,
+              "eventHandlers": [],
+              "padding.padX": null,
+              "padding.padY": null,
+              "margin.marginX": null,
+              "margin.marginY": null,
+              "font.fontFamily": "",
+              "font.fontSize": 13,
+              "font.fontWeight": false,
+              "font.fontItalics": false,
+              "font.fontUnderline": false,
+              "cursor": "",
+              "labelText": "",
+              "imageUpload": {
+                "name": "Symbol (1).png",
+                "previewUrl": "blob:http://localhost:3000/da3198ef-27bf-42b7-b6b3-f2d9a815e5b3"
+              },
+              "imageMode": "cover",
+              "anchor": "center",
+              "layout": {
+                "layout": "flex",
+                "gap": 10
+              }
+            },
+            "draggable": true,
+            "id": "label_mil0z0t3r8q7qt2uug"
+          },
+          "extraProps": {},
+          "widgetClass": "label"
+        },
+        {
+          "id": "label_mil0jnffjcjkftbr1ii",
+          "children": [],
+          "parent": "main_window_mil0javih7ystcd7iwj",
+          "initialData": {
+            "zIndex": 0,
+            "selected": false,
+            "widgetName": "Label",
+            "pos": {
+              "x": -2.796875,
+              "y": -5.1328125
+            },
+            "size": {
+              "width": 367,
+              "height": 361
+            },
+            "fitContent": {
+              "width": false,
+              "height": false
+            },
+            "widgetContainer": "widget",
+            "parentLayout": {
+              "layout": "absolute"
+            },
+            "positionType": "absolute",
+            "attrs": {
+              "styling.backgroundColor": "rgba(240,240,240,0)",
+              "styling.foregroundColor": "#000",
+              "styling.hover.hoverColorEnabled": false,
+              "styling.hover.hoverColor": "#000",
+              "styling.hover.hoverBgEnabled": false,
+              "styling.hover.hoverBg": "rgba(240,240,240,0)",
+              "styling.borderWidth": 0,
+              "styling.borderColor": "#000000",
+              "styling.borderRadius": 2,
+              "isHidden": false,
+              "eventHandlers": [],
+              "padding.padX": null,
+              "padding.padY": null,
+              "margin.marginX": null,
+              "margin.marginY": null,
+              "font.fontFamily": "",
+              "font.fontSize": 13,
+              "font.fontWeight": false,
+              "font.fontItalics": false,
+              "font.fontUnderline": false,
+              "cursor": "",
+              "labelText": "",
+              "imageUpload": {
+                "name": "silas-baisch-Szcw9x0u_G8-unsplash.jpg",
+                "previewUrl": "blob:http://localhost:3000/aaeab06a-aa68-4c9d-99c4-03f7e66b2cd4"
+              },
+              "imageMode": "cover",
+              "anchor": "center",
+              "layout": {
+                "layout": "flex",
+                "gap": 10
+              }
+            },
+            "draggable": true,
+            "id": "label_mil0jnffjcjkftbr1ii"
+          },
+          "extraProps": {},
+          "widgetClass": "label"
+        },
+        {
+          "id": "label_mil11dur116oiqnmfir",
+          "children": [],
+          "parent": "main_window_mil0javih7ystcd7iwj",
+          "initialData": {
+            "zIndex": 0,
+            "selected": false,
+            "widgetName": "Label",
+            "pos": {
+              "x": 0,
+              "y": 249.65625
+            },
+            "size": {
+              "width": 359,
+              "height": 93
+            },
+            "fitContent": {
+              "width": false,
+              "height": false
+            },
+            "widgetContainer": "widget",
+            "parentLayout": {
+              "layout": "absolute"
+            },
+            "positionType": "absolute",
+            "attrs": {
+              "styling.backgroundColor": "rgba(0,0,0,0.3)",
+              "styling.foregroundColor": "#000",
+              "styling.hover.hoverColorEnabled": false,
+              "styling.hover.hoverColor": "#000",
+              "styling.hover.hoverBgEnabled": false,
+              "styling.hover.hoverBg": "rgba(240,240,240,0)",
+              "styling.borderWidth": 0,
+              "styling.borderColor": "#000000",
+              "styling.borderRadius": 2,
+              "isHidden": false,
+              "eventHandlers": [],
+              "padding.padX": null,
+              "padding.padY": null,
+              "margin.marginX": null,
+              "margin.marginY": null,
+              "font.fontFamily": "",
+              "font.fontSize": 13,
+              "font.fontWeight": false,
+              "font.fontItalics": false,
+              "font.fontUnderline": false,
+              "cursor": "",
+              "labelText": "",
+              "imageUpload": "",
+              "imageMode": "cover",
+              "anchor": "center",
+              "layout": {
+                "layout": "flex",
+                "gap": 10
+              }
+            },
+            "draggable": true,
+            "id": "label_mil11dur116oiqnmfir"
+          },
+          "extraProps": {},
+          "widgetClass": "label"
+        },
+        {
+          "id": "label_mil16xar2fmk545uy68",
+          "children": [],
+          "parent": "main_window_mil0javih7ystcd7iwj",
+          "initialData": {
+            "zIndex": 0,
+            "selected": false,
+            "widgetName": "Label",
+            "pos": {
+              "x": 2.8203125,
+              "y": 259.046875
+            },
+            "size": {
+              "width": 189,
+              "height": 32
+            },
+            "fitContent": {
+              "width": false,
+              "height": false
+            },
+            "widgetContainer": "widget",
+            "parentLayout": {
+              "layout": "absolute"
+            },
+            "positionType": "absolute",
+            "attrs": {
+              "styling.backgroundColor": "rgba(240,240,240,0)",
+              "styling.foregroundColor": "rgb(255,255,255)",
+              "styling.hover.hoverColorEnabled": false,
+              "styling.hover.hoverColor": "#000",
+              "styling.hover.hoverBgEnabled": false,
+              "styling.hover.hoverBg": "rgba(240,240,240,0)",
+              "styling.borderWidth": 0,
+              "styling.borderColor": "#000000",
+              "styling.borderRadius": 2,
+              "isHidden": false,
+              "eventHandlers": [],
+              "padding.padX": null,
+              "padding.padY": null,
+              "margin.marginX": null,
+              "margin.marginY": null,
+              "font.fontFamily": "",
+              "font.fontSize": 25,
+              "font.fontWeight": false,
+              "font.fontItalics": false,
+              "font.fontUnderline": false,
+              "cursor": "",
+              "labelText": "You are invited",
+              "imageUpload": "",
+              "imageMode": "cover",
+              "anchor": "center",
+              "layout": {
+                "layout": "flex",
+                "gap": 10
+              }
+            },
+            "draggable": true,
+            "id": "label_mil16xar2fmk545uy68"
+          },
+          "extraProps": {},
+          "widgetClass": "label"
+        },
+        {
+          "id": "label_mil19ge2kqsm2nehxgc",
+          "children": [],
+          "parent": "main_window_mil0javih7ystcd7iwj",
+          "initialData": {
+            "zIndex": 0,
+            "selected": false,
+            "widgetName": "Label",
+            "pos": {
+              "x": 2.8203125,
+              "y": 295.71875
+            },
+            "size": {
+              "width": 303,
+              "height": 34
+            },
+            "fitContent": {
+              "width": false,
+              "height": false
+            },
+            "widgetContainer": "widget",
+            "parentLayout": {
+              "layout": "absolute"
+            },
+            "positionType": "absolute",
+            "attrs": {
+              "styling.backgroundColor": "rgba(240,240,240,0)",
+              "styling.foregroundColor": "rgb(255,255,255)",
+              "styling.hover.hoverColorEnabled": false,
+              "styling.hover.hoverColor": "#000",
+              "styling.hover.hoverBgEnabled": false,
+              "styling.hover.hoverBg": "rgba(240,240,240,0)",
+              "styling.borderWidth": 0,
+              "styling.borderColor": "#000000",
+              "styling.borderRadius": 2,
+              "isHidden": false,
+              "eventHandlers": [],
+              "padding.padX": null,
+              "padding.padY": null,
+              "margin.marginX": null,
+              "margin.marginY": null,
+              "font.fontFamily": "",
+              "font.fontSize": 15,
+              "font.fontWeight": false,
+              "font.fontItalics": false,
+              "font.fontUnderline": false,
+              "cursor": "",
+              "labelText": "Learn to Code and Build your own Games!",
+              "imageUpload": "",
+              "imageMode": "cover",
+              "anchor": "center",
+              "layout": {
+                "layout": "flex",
+                "gap": 10
+              }
+            },
+            "draggable": true,
+            "id": "label_mil19ge2kqsm2nehxgc"
+          },
+          "extraProps": {},
+          "widgetClass": "label"
+        }
+      ],
+      "parent": "",
+      "initialData": {
+        "pos": {
+          "x": 344.9765625,
+          "y": 169.765625
+        },
+        "zIndex": 0,
+        "selected": false,
+        "widgetName": "main",
+        "size": {
+          "width": 700,
+          "height": 370
+        },
+        "fitContent": {
+          "width": false,
+          "height": false
+        },
+        "widgetContainer": "canvas",
+        "parentLayout": null,
+        "positionType": "absolute",
+        "attrs": {
+          "styling.backgroundColor": "#E4E2E2",
+          "isHidden": false,
+          "eventHandlers": [],
+          "initialPosition.x": 0,
+          "initialPosition.y": 0,
+          "initialPosition.positionList": "",
+          "imageUpload": "",
+          "resizable.x": true,
+          "resizable.y": true,
+          "maximized": false,
+          "title": "Coding  Bootcamp Sign Up Page",
+          "menuHidden": true,
+          "logo": "",
+          "layout": {
+            "layout": "absolute"
+          }
+        },
+        "draggable": true,
+        "menuData": [
+          {
+            "name": "File",
+            "items": [
+              {
+                "name": "New",
+                "items": []
+              },
+              {
+                "name": "Open",
+                "items": []
+              }
+            ]
+          },
+          {
+            "name": "Edit",
+            "items": []
+          }
+        ],
+        "id": "main_window_mil0javih7ystcd7iwj"
+      },
+      "extraProps": {},
+      "widgetClass": "main_window"
+    }
+  ],
+  "code": ""
+}

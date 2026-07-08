@@ -1,0 +1,495 @@
+{
+  "framework": "PySide",
+  "projectName": "Pyui hello",
+  "canvasData": [
+    {
+      "id": "main_window_mragj668l181txy0gzp",
+      "children": [
+        {
+          "id": "frame_mragnmfebwt5wvhxfld",
+          "children": [
+            {
+              "id": "entry_mragkc8ezsvz4sxczl",
+              "children": [],
+              "parent": "frame_mragnmfebwt5wvhxfld",
+              "initialData": {
+                "zIndex": 0,
+                "selected": false,
+                "widgetName": "Url",
+                "pos": {
+                  "x": 171.32034301757812,
+                  "y": 13.4609375
+                },
+                "size": {
+                  "width": 359,
+                  "height": 26
+                },
+                "fitContent": {
+                  "width": false,
+                  "height": false
+                },
+                "widgetContainer": "widget",
+                "parentLayout": {
+                  "layout": "absolute"
+                },
+                "positionType": "absolute",
+                "attrs": {
+                  "styling.backgroundColor": "rgba(27,25,25,0.8)",
+                  "styling.foregroundColor": "rgb(220,220,220)",
+                  "styling.hover.hoverColorEnabled": false,
+                  "styling.hover.hoverColor": "#000",
+                  "styling.hover.hoverBgEnabled": false,
+                  "styling.hover.hoverBg": "#f0f0f0",
+                  "styling.borderWidth": 1,
+                  "styling.borderColor": "#a9a9a9",
+                  "styling.borderRadius": 6,
+                  "isHidden": false,
+                  "eventHandlers": [
+                    {
+                      "handler": "setWindowUrl",
+                      "event": "KeyPress"
+                    }
+                  ],
+                  "padding.padX": 5,
+                  "padding.padY": 2,
+                  "margin.marginX": null,
+                  "margin.marginY": null,
+                  "font.fontFamily": "",
+                  "font.fontSize": 13,
+                  "font.fontWeight": false,
+                  "font.fontItalics": false,
+                  "font.fontUnderline": false,
+                  "cursor": "",
+                  "placeHolder": "url",
+                  "layout": {
+                    "layout": "flex",
+                    "gap": 10
+                  }
+                },
+                "draggable": true
+              },
+              "extraProps": {},
+              "widgetClass": "entry"
+            },
+            {
+              "id": "entry_mraglxmxh2g7fsyblde",
+              "children": [],
+              "parent": "frame_mragnmfebwt5wvhxfld",
+              "initialData": {
+                "zIndex": 0,
+                "selected": false,
+                "widgetName": "search",
+                "pos": {
+                  "x": 195.20315551757812,
+                  "y": 175.35940551757812
+                },
+                "size": {
+                  "width": 297,
+                  "height": 36
+                },
+                "fitContent": {
+                  "width": false,
+                  "height": false
+                },
+                "widgetContainer": "widget",
+                "parentLayout": {
+                  "layout": "absolute"
+                },
+                "positionType": "absolute",
+                "attrs": {
+                  "styling.backgroundColor": "rgb(61,53,53)",
+                  "styling.foregroundColor": "rgb(253,253,253)",
+                  "styling.hover.hoverColorEnabled": false,
+                  "styling.hover.hoverColor": "#000",
+                  "styling.hover.hoverBgEnabled": false,
+                  "styling.hover.hoverBg": "#f0f0f0",
+                  "styling.borderWidth": 2,
+                  "styling.borderColor": "rgb(245,97,43)",
+                  "styling.borderRadius": 9,
+                  "isHidden": false,
+                  "eventHandlers": [],
+                  "padding.padX": 5,
+                  "padding.padY": 2,
+                  "margin.marginX": null,
+                  "margin.marginY": null,
+                  "font.fontFamily": "",
+                  "font.fontSize": 13,
+                  "font.fontWeight": false,
+                  "font.fontItalics": false,
+                  "font.fontUnderline": false,
+                  "cursor": "",
+                  "placeHolder": "Search...",
+                  "layout": {
+                    "layout": "flex",
+                    "gap": 10
+                  }
+                },
+                "draggable": true
+              },
+              "extraProps": {},
+              "widgetClass": "entry"
+            },
+            {
+              "id": "button_mragp1ijvk3i05k3yc",
+              "children": [],
+              "parent": "frame_mragnmfebwt5wvhxfld",
+              "initialData": {
+                "zIndex": 0,
+                "selected": false,
+                "widgetName": "Button",
+                "pos": {
+                  "x": 498.2031555175781,
+                  "y": 170.35940551757812
+                },
+                "size": {
+                  "width": 38,
+                  "height": 32
+                },
+                "fitContent": {
+                  "width": false,
+                  "height": false
+                },
+                "widgetContainer": "widget",
+                "parentLayout": {
+                  "layout": "absolute"
+                },
+                "positionType": "absolute",
+                "attrs": {
+                  "styling.backgroundColor": "rgb(46,44,44)",
+                  "styling.foregroundColor": "#000",
+                  "styling.hover.hoverColorEnabled": false,
+                  "styling.hover.hoverColor": "#000",
+                  "styling.hover.hoverBgEnabled": true,
+                  "styling.hover.hoverBg": "rgb(88,78,78)",
+                  "styling.borderWidth": 2,
+                  "styling.borderColor": "rgba(234,95,31,0.65)",
+                  "styling.borderRadius": 10,
+                  "isHidden": false,
+                  "eventHandlers": [
+                    {
+                      "handler": "click_handler",
+                      "event": "clicked"
+                    }
+                  ],
+                  "padding.padX": null,
+                  "padding.padY": null,
+                  "margin.marginX": null,
+                  "margin.marginY": null,
+                  "font.fontFamily": "",
+                  "font.fontSize": 13,
+                  "font.fontWeight": false,
+                  "font.fontItalics": false,
+                  "font.fontUnderline": false,
+                  "cursor": "PointingHandCursor",
+                  "buttonLabel": "",
+                  "imageUpload": {
+                    "name": "image-invert.png",
+                    "previewUrl": "blob:http://localhost:3000/8c3de91f-1de3-4372-bdc1-8370f4798d8c"
+                  },
+                  "imageDisplayMode": "icon",
+                  "imageWidth": 50,
+                  "imageHeight": 50,
+                  "layout": {
+                    "layout": "flex",
+                    "gap": 10
+                  }
+                },
+                "draggable": true
+              },
+              "extraProps": {},
+              "widgetClass": "button"
+            },
+            {
+              "id": "label_mragl6w0vqqomluok2d",
+              "children": [],
+              "parent": "frame_mragnmfebwt5wvhxfld",
+              "initialData": {
+                "zIndex": 0,
+                "selected": false,
+                "widgetName": "Label",
+                "pos": {
+                  "x": 217.20315551757812,
+                  "y": 76.359375
+                },
+                "size": {
+                  "width": 236,
+                  "height": 99
+                },
+                "fitContent": {
+                  "width": false,
+                  "height": false
+                },
+                "widgetContainer": "widget",
+                "parentLayout": {
+                  "layout": "absolute"
+                },
+                "positionType": "absolute",
+                "attrs": {
+                  "styling.backgroundColor": "rgba(240,240,240,0)",
+                  "styling.foregroundColor": "#000",
+                  "styling.hover.hoverColorEnabled": false,
+                  "styling.hover.hoverColor": "#000",
+                  "styling.hover.hoverBgEnabled": false,
+                  "styling.hover.hoverBg": "rgba(240,240,240,0)",
+                  "styling.borderWidth": 0,
+                  "styling.borderColor": "#000000",
+                  "styling.borderRadius": 2,
+                  "isHidden": false,
+                  "eventHandlers": [],
+                  "padding.padX": null,
+                  "padding.padY": null,
+                  "margin.marginX": null,
+                  "margin.marginY": null,
+                  "font.fontFamily": "",
+                  "font.fontSize": 13,
+                  "font.fontWeight": false,
+                  "font.fontItalics": false,
+                  "font.fontUnderline": false,
+                  "cursor": "",
+                  "labelText": "",
+                  "imageUpload": {
+                    "name": "logomb2.png",
+                    "previewUrl": "blob:http://localhost:3000/a9df52ae-c513-480a-857d-56258cf42486"
+                  },
+                  "imageMode": "cover",
+                  "anchor": "center",
+                  "layout": {
+                    "layout": "flex",
+                    "gap": 10
+                  }
+                },
+                "draggable": true
+              },
+              "extraProps": {},
+              "widgetClass": "label"
+            }
+          ],
+          "parent": "main_window_mragj668l181txy0gzp",
+          "initialData": {
+            "pos": {
+              "x": -2.421875,
+              "y": -0.5859375
+            },
+            "attrs": {
+              "styling.backgroundColor": "rgb(24,23,23)",
+              "styling.hover.hoverBgEnabled": false,
+              "styling.hover.hoverBg": "#EDECEC",
+              "styling.borderWidth": 0,
+              "styling.borderColor": "#000000",
+              "styling.borderRadius": 2,
+              "isHidden": false,
+              "eventHandlers": [],
+              "imageUpload": "",
+              "cursor": "",
+              "padding.padX": null,
+              "padding.padY": null,
+              "margin.marginX": null,
+              "margin.marginY": null,
+              "layout": {
+                "layout": "absolute"
+              }
+            },
+            "positionType": "absolute",
+            "parentLayout": {
+              "layout": "absolute"
+            },
+            "zIndex": 0,
+            "widgetContainer": "widget",
+            "selected": false,
+            "widgetName": "Frame",
+            "size": {
+              "width": 702,
+              "height": 348
+            },
+            "fitContent": {
+              "width": false,
+              "height": false
+            },
+            "draggable": true
+          },
+          "extraProps": {},
+          "widgetClass": "frame"
+        },
+        {
+          "id": "web_view_mragxpfzyqwh2dfnh3",
+          "children": [],
+          "parent": "main_window_mragj668l181txy0gzp",
+          "initialData": {
+            "pos": {
+              "x": -0.2109375,
+              "y": -3.21875
+            },
+            "attrs": {
+              "isHidden": true,
+              "eventHandlers": [],
+              "padding.padX": null,
+              "padding.padY": null,
+              "margin.marginX": null,
+              "margin.marginY": null,
+              "cursor": "",
+              "url": "",
+              "layout": {
+                "layout": "flex",
+                "gap": 10
+              }
+            },
+            "positionType": "absolute",
+            "parentLayout": {
+              "layout": "absolute"
+            },
+            "zIndex": 0,
+            "widgetContainer": "widget",
+            "selected": false,
+            "widgetName": "Web View",
+            "size": {
+              "width": 699,
+              "height": 344
+            },
+            "fitContent": {
+              "width": false,
+              "height": false
+            },
+            "draggable": true
+          },
+          "extraProps": {},
+          "widgetClass": "web_view"
+        },
+        {
+          "id": "button_mrahl4kvsjtxdvwx7x",
+          "children": [],
+          "parent": "main_window_mragj668l181txy0gzp",
+          "initialData": {
+            "zIndex": 0,
+            "selected": false,
+            "widgetName": "back_btn",
+            "pos": {
+              "x": 22.687530517578125,
+              "y": 7.703125
+            },
+            "size": {
+              "width": 33,
+              "height": 32
+            },
+            "fitContent": {
+              "width": false,
+              "height": false
+            },
+            "widgetContainer": "widget",
+            "parentLayout": {
+              "layout": "absolute"
+            },
+            "positionType": "absolute",
+            "attrs": {
+              "styling.backgroundColor": "rgba(228,226,226,0.09)",
+              "styling.foregroundColor": "#000",
+              "styling.hover.hoverColorEnabled": false,
+              "styling.hover.hoverColor": "#000",
+              "styling.hover.hoverBgEnabled": true,
+              "styling.hover.hoverBg": "rgb(54,46,46)",
+              "styling.borderWidth": 1,
+              "styling.borderColor": "rgb(218,67,67)",
+              "styling.borderRadius": 15,
+              "isHidden": true,
+              "eventHandlers": [
+                {
+                  "handler": "back",
+                  "event": "clicked"
+                }
+              ],
+              "padding.padX": null,
+              "padding.padY": null,
+              "margin.marginX": null,
+              "margin.marginY": null,
+              "font.fontFamily": "",
+              "font.fontSize": 13,
+              "font.fontWeight": false,
+              "font.fontItalics": false,
+              "font.fontUnderline": false,
+              "cursor": "",
+              "buttonLabel": "",
+              "imageUpload": {
+                "name": "back-transparent.png",
+                "previewUrl": "blob:http://localhost:3000/2cdf5206-cb2c-4262-bfe3-42c53afc257c"
+              },
+              "imageDisplayMode": "icon",
+              "imageWidth": 25,
+              "imageHeight": 25,
+              "layout": {
+                "layout": "flex",
+                "gap": 10
+              }
+            },
+            "draggable": true
+          },
+          "extraProps": {},
+          "widgetClass": "button"
+        }
+      ],
+      "parent": "",
+      "initialData": {
+        "pos": {
+          "x": 104.1875,
+          "y": 251.9375
+        },
+        "zIndex": 0,
+        "selected": false,
+        "widgetName": "main",
+        "size": {
+          "width": 700,
+          "height": 370
+        },
+        "fitContent": {
+          "width": false,
+          "height": false
+        },
+        "widgetContainer": "canvas",
+        "parentLayout": null,
+        "positionType": "absolute",
+        "attrs": {
+          "styling.backgroundColor": "rgb(24,23,23)",
+          "isHidden": false,
+          "eventHandlers": [],
+          "initialPosition.x": 0,
+          "initialPosition.y": 0,
+          "initialPosition.positionList": "center",
+          "imageUpload": "",
+          "resizable.x": false,
+          "resizable.y": false,
+          "maximized": false,
+          "title": "My Browser",
+          "menuHidden": true,
+          "logo": {
+            "name": "logomb.png",
+            "previewUrl": "blob:http://localhost:3000/84664412-c791-4b72-ae15-2cceddb32e4c"
+          },
+          "layout": {
+            "layout": "absolute"
+          }
+        },
+        "draggable": true,
+        "menuData": [
+          {
+            "name": "File",
+            "items": [
+              {
+                "name": "New",
+                "items": []
+              },
+              {
+                "name": "Open",
+                "items": []
+              }
+            ]
+          },
+          {
+            "name": "Edit",
+            "items": []
+          }
+        ]
+      },
+      "extraProps": {},
+      "widgetClass": "main_window"
+    }
+  ],
+  "code": "from PySide6.QtCore import Qt\nfrom PySide6.QtCore import QUrl\n# Add your event handler script here \n\ndef click_handler(event):\n\tframe.hide()\n\tback_btn.show()\n\tweb_view.setUrl(QUrl(f\"https://google.com/search?q={search.text()}\"))\n\tweb_view.show()\n\ndef setWindowUrl(event):\n\n\tif event.key() in (Qt.Key_Return, Qt.Key_Enter):\n\t\tback_btn.show()\n\t\tframe.hide()\n\t\tweb_view.setUrl(QUrl(url.text()))\n\t\tweb_view.show()\n\n\ndef back(event):\n\tweb_view.hide()\n\tframe.show()"
+}
