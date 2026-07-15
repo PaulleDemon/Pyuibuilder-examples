@@ -1,5 +1,15 @@
 # Pyuibuilder-examples
-Examples of Pyuibuilder GUIs
+Easy way to get started with Pyuibuilder. Use this repository to browse example to easily get a grasp of Pyuibuilder.
+
+## Tutorial
+
+For tutorials refer
+
+**For Pyuibuilder tutorial:** [Youtube](https://youtu.be/kB-Va7Rj74k?si=tf8aqy-gHNZKNFDg)
+
+**Youtube Playlist:** [Playlist](https://www.youtube.com/playlist?list=PL0VamwghCfX-KXtGKGLak-C_-Jcx_eOiK)
+
+**Docs:** [Docs](https://docs.pyuibuilder.com/)
 
 ### How to use 
 Go to the examples folder and download the .pyui file -> open pyuibuilder -> Load the file
